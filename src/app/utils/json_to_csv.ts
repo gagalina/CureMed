@@ -1,4 +1,4 @@
-import {Injectable} from "@angular/core";
+import {Injectable} from '@angular/core';
 
 @Injectable()
 
@@ -6,18 +6,18 @@ export default class JsonToCsv {
 
 
   parse(inputData, fileName) {
-    let data = inputData;
+    const data = inputData;
 
-    let str = "";
-    let lineHead = "";
-    let line = "";
+    let str = '';
+    let lineHead = '';
+    let line = '';
     let count = 0;
 
     data.map(function (el) {
-      let elData = el;
+      const elData = el;
 
 
-      for (let a in elData) {
+      for (const a in elData) {
         if (a !== 'guid') {
           if (count === 0) {
             lineHead += '"' + a + '",';
@@ -46,12 +46,12 @@ export default class JsonToCsv {
 
 
   toLink(dataToLink, fileName) {
-    let blob = new Blob([dataToLink], {type: "text/csv;charset=utf8;"});
+    const blob = new Blob([dataToLink], {type: 'text/csv;charset=utf8;'});
 
-    let link = document.createElement("a");
-    link.setAttribute("href", window.URL.createObjectURL(blob));
-    link.setAttribute("class", 'export');
-    link.setAttribute("download", fileName);
+    const link = document.createElement('a');
+    link.setAttribute('href', window.URL.createObjectURL(blob));
+    link.setAttribute('class', 'export');
+    link.setAttribute('download', fileName);
     link.setAttribute('target', '_blank');
     document.body.appendChild(link);
     link.click();

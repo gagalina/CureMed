@@ -4,9 +4,5 @@ export interface IRecord {
   doctor: string;
   time: string;
   date: string;
-  income: number;
-  outcome: number;
-  pureIncome: number;
-  taxes: number;
   guid: string;
 }

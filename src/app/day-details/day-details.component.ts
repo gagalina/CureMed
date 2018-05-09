@@ -40,6 +40,7 @@ export class DayDetailsComponent {
         'Cortnee',
         'Nick'
     ];
+
     constructor(private route: ActivatedRoute, private recordsService: RecordsService) {
     }
 
@@ -49,14 +50,17 @@ export class DayDetailsComponent {
     }
 
     addRecord(): void {
-        console.log(this.recordForm.valid);
         if (this.recordForm.valid) {
 
-            const record: IRecord = {date: this.date, ...this.recordForm.value};
-            record.pureIncome = record.income - record.outcome;
-            record.taxes = record.pureIncome * 0.15;
+            const record: IRecord = {
+                firstName: this.recordForm.value.firstName,
+                lastName: this.recordForm.value.lastName,
+                doctor: this.recordForm.value.doctor,
+                date: this.date,
+                time: this.recordForm.value.time,
+                guid: this.recordForm.value.guid
 
-
+        };
             this.recordsService.setRecord(record);
             this.recordForm.reset();
         }
