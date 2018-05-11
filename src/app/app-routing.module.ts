@@ -4,30 +4,35 @@ import {CalendarComponent} from './calendar/calendar.component';
 import {DayDetailsComponent} from './day-details/day-details.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import {PatientsListComponent} from './day-details/patinets-list/patients-list.component';
+import {UserComponent} from './user/user.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    redirectTo: '/calendar',
-    pathMatch: 'full'
-  },
-  {
-    path: 'calendar',
-    component: CalendarComponent,
-  },
-  {
-    path: 'day-details/:date',
-    component: DayDetailsComponent
-  },
-  {
-    path: '**',
-    component: PageNotFoundComponent
-  }
+    {
+        path: '',
+        redirectTo: '/calendar',
+        pathMatch: 'full'
+    },
+    {
+        path: 'calendar',
+        component: CalendarComponent,
+    },
+    {
+        path: 'day-details/:date',
+        component: DayDetailsComponent
+    },
+    {
+        path: 'user-details/:user',
+        component: UserComponent
+    },
+    {
+        path: '**',
+        component: PageNotFoundComponent
+    }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule]
 })
 export class AppRoutingModule {
 }

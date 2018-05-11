@@ -1,8 +1,10 @@
 import {Component, OnInit} from '@angular/core';
 import {RecordsService} from '../services/records.service';
+import {PatientsService} from '../services/patients.service';
 import {IRecord} from '../interfaces/interface';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {ActivatedRoute} from '@angular/router';
+import {AmazingTimePickerService} from 'amazing-time-picker';
 
 @Component({
     selector: 'app-day-details',
@@ -41,7 +43,10 @@ export class DayDetailsComponent {
         'Nick'
     ];
 
-    constructor(private route: ActivatedRoute, private recordsService: RecordsService) {
+    constructor(private route: ActivatedRoute,
+                private recordsService: RecordsService,
+                private atp: AmazingTimePickerService,
+                private patientsService: PatientsService) {
     }
 
     ngOnInit() {
@@ -62,6 +67,7 @@ export class DayDetailsComponent {
 
         };
             this.recordsService.setRecord(record);
+            this.patientsService.createPatient(record);
             this.recordForm.reset();
         }
 

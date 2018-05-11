@@ -46,7 +46,6 @@ export class CalendarComponent implements OnInit {
     const startDate = this.selectedMonth.startOf('month').format('DD-MM-YYYY');
     const endDate = this.selectedMonth.endOf('month').format('DD-MM-YYYY');
     this.recordsService.getRecordsForMonth(startDate, endDate).subscribe(monthRecords => {
-      console.log('triggered');
       this.monthRecords = monthRecords;
     });
   }
