@@ -6,6 +6,7 @@ import {MonthIterablePipe} from './pipes/month-iterable.pipe';
 import {PatientsListComponent} from './day-details/patinets-list/patients-list.component';
 import {RecordsService} from './services/records.service';
 import {PatientsService} from './services/patients.service';
+import {HealthService} from './services/health.service';
 import {ReactiveFormsModule} from '@angular/forms';
 import JsonToCsv from './utils/json_to_csv';
 import {AmazingTimePickerModule} from 'amazing-time-picker';
@@ -28,7 +29,8 @@ import {UserComponent} from './user/user.component';
     providers: [
         JsonToCsv,
         RecordsService,
-        PatientsService
+        PatientsService,
+        HealthService
     ],
     bootstrap: [AppComponent]
 })

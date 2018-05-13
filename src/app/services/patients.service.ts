@@ -279,5 +279,15 @@ export class PatientsService {
             localStorage.setItem('patients', JSON.stringify(newArray));
         }
     }
+
+    editPatient(editedPatient): void {
+        this.patients.map((el, index) => {
+            if (el.guid === editedPatient.guid) {
+                this.patients.splice(index, 1, editedPatient);
+            }
+        });
+        console.log(this.patients);
+        console.log(editedPatient);
+    }
 }
 
