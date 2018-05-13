@@ -15,4 +15,6 @@ export interface IPatient {
     guid: string;
     phoneNumber: string;
     city: string;
+    street: string;
+    dateOfBirth: string;
 }

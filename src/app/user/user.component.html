@@ -1,34 +1,42 @@
 <div class="container">
     <div class="row mt-4">
-        <div class="col-4">
+        <div class="col-3">
             <div class="user-image">
                 <img src='./assets/user.png' alt="user">
             </div>
         </div>
-        <div class="col-8">
-            <form (ngSubmit)="addRecord()" [formGroup]="userForm" novalidate>
-                <div class="form-row">
-                    <div class="col-12">
-                        <input type="text" class="form-control" formControlName="firstName" value={{currentPatient.firstName}}>
-                    </div>
+        <div class="col-9">
+            <div class="row">
+                <div class="col-3">
+
                 </div>
-                <div class="form-row mt-2">
-                    <div class="col-12">
-                        <input type="text" class="form-control" formControlName="lastName" value={{currentPatient.lastName}}>
-                    </div>
+                <div class="col-9">
+                    <form (ngSubmit)="addRecord()" [formGroup]="userForm" novalidate>
+                        <div class="form-row">
+                            <div class="col-12">
+                                <input type="text" class="form-control" formControlName="firstName" value={{currentPatient.firstName}}>
+                            </div>
+                        </div>
+                        <div class="form-row mt-2">
+                            <div class="col-12">
+                                <input type="text" class="form-control" formControlName="lastName" value={{currentPatient.lastName}}>
+                            </div>
+                        </div>
+                        <div class="form-row" style="margin-top: 10px">
+                            <div class="col-5">
+                                <select type="text" class="form-control" formControlName="doctor">
+                                    <option [value]="" [selected]="true">{{currentPatient.doctor}}</option>
+                                    <option *ngFor="let doctor of doctors"
+                                            [value]="doctor">
+                                        {{doctor}}
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-row" style="margin-top: 10px">
-                    <div class="col-5">
-                        <select type="text" class="form-control" formControlName="doctor">
-                            <option [value]="" [selected]="true">{{currentPatient.doctor}}</option>
-                            <option *ngFor="let doctor of doctors"
-                                    [value]="doctor">
-                                {{doctor}}
-                            </option>
-                        </select>
-                    </div>
-                </div>
-            </form>
+
+            </div>
         </div>
     </div>
     <div class="row mt-4">

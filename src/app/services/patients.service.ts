@@ -13,7 +13,9 @@ export class PatientsService {
             date: '02-06-2018',
             guid: 'cos1',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Mary',
@@ -23,7 +25,9 @@ export class PatientsService {
             date: '02-06-2018',
             guid: 'cos2',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Kate',
@@ -33,7 +37,9 @@ export class PatientsService {
             date: '02-06-2018',
             guid: 'cos3',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Viktoria',
@@ -43,7 +49,9 @@ export class PatientsService {
             date: '02-06-2018',
             guid: 'cos4',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Angela',
@@ -53,7 +61,9 @@ export class PatientsService {
             date: '02-06-2018',
             guid: 'cos5',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Jack',
@@ -63,7 +73,9 @@ export class PatientsService {
             date: '02-06-2018',
             guid: 'cos6',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Max',
@@ -73,7 +85,9 @@ export class PatientsService {
             date: '02-06-2018',
             guid: 'cos7',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Den',
@@ -83,7 +97,9 @@ export class PatientsService {
             date: '02-05-2018',
             guid: 'cos8',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Stan',
@@ -93,7 +109,9 @@ export class PatientsService {
             date: '02-05-2018',
             guid: 'cos9',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Steve',
@@ -103,7 +121,9 @@ export class PatientsService {
             date: '02-05-2018',
             guid: 'cos10',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Irene',
@@ -113,7 +133,9 @@ export class PatientsService {
             date: '02-05-2018',
             guid: 'cos11',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Penelope',
@@ -123,7 +145,9 @@ export class PatientsService {
             date: '02-05-2018',
             guid: 'cos12',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'John',
@@ -133,7 +157,9 @@ export class PatientsService {
             date: '02-05-2018',
             guid: 'cos13',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Robert',
@@ -143,7 +169,9 @@ export class PatientsService {
             date: '02-05-2018',
             guid: 'cos14',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Mick',
@@ -153,7 +181,9 @@ export class PatientsService {
             date: '02-05-2018',
             guid: 'cos15',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Kit',
@@ -163,7 +193,9 @@ export class PatientsService {
             date: '02-05-2018',
             guid: 'cos16',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Ozzy',
@@ -173,7 +205,9 @@ export class PatientsService {
             date: '02-05-2018',
             guid: 'cos17',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Nicole',
@@ -183,7 +217,9 @@ export class PatientsService {
             date: '02-04-2018',
             guid: 'cos18',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Cameron',
@@ -193,7 +229,9 @@ export class PatientsService {
             date: '02-04-2018',
             guid: 'cos19',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         },
         {
             firstName: 'Jim',
@@ -203,7 +241,9 @@ export class PatientsService {
             date: '02-05-2018',
             guid: 'cos20',
             phoneNumber: '111-111-111',
-            city: 'Lviv'
+            city: 'Lviv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         }
     ];
 
@@ -224,7 +264,9 @@ export class PatientsService {
     createPatient(newPatient): void {
         const patient = {...newPatient,
             phoneNumber: '222',
-            city: 'Kyiv'
+            city: 'Kyiv',
+            street: 'Naukova',
+            dateOfBirth: '11-02-1996'
         };
         this.patients.push(patient);
 
