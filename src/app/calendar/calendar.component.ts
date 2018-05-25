@@ -4,7 +4,7 @@ import {Moment} from 'moment';
 import {Router} from '@angular/router';
 import {RecordsService} from '../services/records.service';
 import {IRecord} from '../interfaces/interface';
-import JsonToCsv from '../utils/json_to_csv';
+import {JsonToCsv} from '../utils/json_to_csv';
 
 @Component ({
   selector: 'app-calendar',
@@ -14,7 +14,6 @@ import JsonToCsv from '../utils/json_to_csv';
 export class CalendarComponent implements OnInit {
   selectedMonth: Moment = moment();
   monthRecords: Map<string, IRecord[]>;
-
   constructor(private router: Router, private recordsService: RecordsService, private jsonToCsv: JsonToCsv) {
   }
 

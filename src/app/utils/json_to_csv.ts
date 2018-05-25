@@ -1,8 +1,7 @@
 import {Injectable} from '@angular/core';
 
 @Injectable()
-
-export default class JsonToCsv {
+export class JsonToCsv {
 
 
   parse(inputData, fileName) {
@@ -43,7 +42,6 @@ export default class JsonToCsv {
     this.toLink(str, fileName + '.csv');
 
   }
-
 
   toLink(dataToLink, fileName) {
     const blob = new Blob([dataToLink], {type: 'text/csv;charset=utf8;'});
