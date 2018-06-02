@@ -21,19 +21,19 @@ export class RecordsService {
 
         records.set('02-06-2018', [
                 {
-                    firstName: 'John',
-                    lastName: 'Smith',
-                    doctor: 'Martin',
+                    firstName: 'Ангеліна',
+                    lastName: 'Іванова',
+                    doctor: 'Марія',
                     date: '02-06-2018',
-                    time: '12:10',
+                    time: '10:10',
                     guid: 'cos1'
                 },
                 {
-                    firstName: 'Mary',
-                    lastName: 'Page',
-                    doctor: 'Lucy',
+                    firstName: 'Іван',
+                    lastName: 'Петренко',
+                    doctor: 'Наталія',
                     date: '02-06-2018',
-                    time: '12:10',
+                    time: '14:10',
                     guid: 'cos2'
                 }
             ]
@@ -41,17 +41,17 @@ export class RecordsService {
 
         records.set('04-06-2018', [
                 {
-                    firstName: 'Kate',
-                    lastName: 'Revs',
-                    doctor: 'Nick',
+                    firstName: 'Петро',
+                    lastName: 'Петренко',
+                    doctor: 'Антон',
                     date: '02-06-2018',
-                    time: '12:10',
+                    time: '11:10',
                     guid: 'cos3'
                 },
                 {
-                    firstName: 'Viktoria',
-                    lastName: 'York',
-                    doctor: 'Nick',
+                    firstName: 'Вікторія',
+                    lastName: 'Петрова',
+                    doctor: 'Микола',
                     date: '02-06-2018',
                     time: '12:10',
                     guid: 'cos4'
@@ -60,33 +60,33 @@ export class RecordsService {
         );
         records.set('09-06-2018', [
                 {
-                    firstName: 'Angela',
-                    lastName: 'Page',
-                    doctor: 'Nick',
+                    firstName: 'Ангеліна',
+                    lastName: 'Іванова',
+                    doctor: 'Антон',
                     date: '02-06-2018',
-                    time: '12:10',
+                    time: '15:10',
                     guid: 'cos5'
                 },
                 {
-                    firstName: 'Jack',
-                    lastName: 'Cage',
-                    doctor: 'Angela',
+                    firstName: 'Дмитро',
+                    lastName: 'Іванов',
+                    doctor: 'Андрій',
                     date: '02-06-2018',
-                    time: '12:10',
+                    time: '14:10',
                     guid: 'cos6'
                 },
                 {
-                    firstName: 'Max',
-                    lastName: 'Parker',
-                    doctor: 'Angela',
+                    firstName: 'Максим',
+                    lastName: 'Максименко',
+                    doctor: 'Марія',
                     date: '02-06-2018',
-                    time: '12:10',
+                    time: '13:10',
                     guid: 'cos7'
                 },
                 {
-                    firstName: 'Den',
-                    lastName: 'Clunie',
-                    doctor: 'Cortnee',
+                    firstName: 'Іван',
+                    lastName: 'Петров',
+                    doctor: 'Наталія',
                     date: '02-05-2018',
                     time: '12:10',
                     guid: 'cos8'
@@ -95,57 +95,57 @@ export class RecordsService {
         );
         records.set('11-05-2018', [
                 {
-                    firstName: 'Stan',
-                    lastName: 'Simpson',
-                    doctor: 'Cortnee',
+                    firstName: 'Петро',
+                    lastName: 'Іванов',
+                    doctor: 'Антон',
                     date: '02-05-2018',
-                    time: '12:10',
+                    time: '10:10',
                     guid: 'cos9'
                 },
                 {
-                    firstName: 'Steve',
-                    lastName: 'Berry',
-                    doctor: 'Angela',
+                    firstName: 'Степан',
+                    lastName: 'Степанов',
+                    doctor: 'Антон',
                     date: '02-05-2018',
-                    time: '12:10',
+                    time: '9:30',
                     guid: 'cos10'
                 }
             ]
         );
         records.set('16-05-2018', [
                 {
-                    firstName: 'Irene',
-                    lastName: 'Cash',
-                    doctor: 'Cortnee',
+                    firstName: 'Ірина',
+                    lastName: 'Іванова',
+                    doctor: 'Антон',
                     date: '02-05-2018',
-                    time: '12:10',
+                    time: '9:10',
                     guid: 'cos11'
                 },
                 {
-                    firstName: 'Penelope',
-                    lastName: 'Plant',
-                    doctor: 'Cortnee',
+                    firstName: 'Петро',
+                    lastName: 'Петренко',
+                    doctor: 'Андрій',
                     date: '02-05-2018',
-                    time: '12:10',
+                    time: '10:10',
                     guid: 'cos12'
                 }
             ]
         );
         records.set('19-05-2018', [
                 {
-                    firstName: 'John',
-                    lastName: 'Charles',
-                    doctor: 'Lucy',
+                    firstName: 'Олег',
+                    lastName: 'Павленко',
+                    doctor: 'Марія',
                     date: '02-05-2018',
-                    time: '12:10',
+                    time: '18:00',
                     guid: 'cos13'
                 },
                 {
-                    firstName: 'Robert',
-                    lastName: 'Jagger',
-                    doctor: 'Angela',
+                    firstName: 'Павло',
+                    lastName: 'Павленко',
+                    doctor: 'Микола',
                     date: '02-05-2018',
-                    time: '12:10',
+                    time: '17:10',
                     guid: 'cos14'
                 }
             ]
@@ -153,19 +153,19 @@ export class RecordsService {
 
         records.set('20-05-2018', [
                 {
-                    firstName: 'Mick',
-                    lastName: 'Richards',
-                    doctor: 'Angela',
+                    firstName: 'Микола',
+                    lastName: 'Іванов',
+                    doctor: 'Наталія',
                     date: '02-05-2018',
-                    time: '12:10',
+                    time: '16:10',
                     guid: 'cos15'
                 },
                 {
-                    firstName: 'Kit',
-                    lastName: 'Osborn',
-                    doctor: 'Lucy',
+                    firstName: 'Катерина',
+                    lastName: 'Павленко',
+                    doctor: 'Наталія',
                     date: '02-05-2018',
-                    time: '12:10',
+                    time: '15:10',
                     guid: 'cos16'
                 }
             ]
@@ -173,19 +173,19 @@ export class RecordsService {
 
         records.set('21-05-2018', [
                 {
-                    firstName: 'Ozzy',
-                    lastName: 'Kidman',
-                    doctor: 'Angela',
+                    firstName: 'Іванна',
+                    lastName: 'Павленко',
+                    doctor: 'Антон',
                     date: '02-05-2018',
-                    time: '12:10',
+                    time: '14:10',
                     guid: 'cos17'
                 },
                 {
-                    firstName: 'Nicole',
-                    lastName: 'Taron',
-                    doctor: 'Martin',
+                    firstName: 'Микола',
+                    lastName: 'Іванов',
+                    doctor: 'Антон',
                     date: '02-04-2018',
-                    time: '12:10',
+                    time: '13:10',
                     guid: 'cos18'
                 }
             ]
@@ -193,19 +193,19 @@ export class RecordsService {
 
         records.set('27-05-2018', [
                 {
-                    firstName: 'Cameron',
-                    lastName: 'Kerry',
-                    doctor: 'Lucy',
+                    firstName: 'Антон',
+                    lastName: 'Антонов',
+                    doctor: 'Микола',
                     date: '02-04-2018',
                     time: '12:10',
                     guid: 'cos19'
                 },
                 {
-                    firstName: 'Jim',
-                    lastName: 'Diaz',
-                    doctor: 'Martin',
+                    firstName: 'Павло',
+                    lastName: 'Антонов',
+                    doctor: 'Микола',
                     date: '02-05-2018',
-                    time: '12:10',
+                    time: '12:20',
                     guid: 'cos20'
                 }
             ]

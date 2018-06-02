@@ -56,12 +56,12 @@ export class UserComponent implements OnInit, OnDestroy {
         }
     );
     doctors: string[] = [
-        'Martin',
-        'Lucy',
-        'Martin',
-        'Angela',
-        'Cortnee',
-        'Nick'
+        'Марія',
+        'Андрій',
+        'Галина',
+        'Антон',
+        'Наталія',
+        'Микола'
     ];
 
     history: {

@@ -35,12 +35,12 @@ export class DayDetailsComponent {
     records: IRecord [];
     date: string;
     doctors: string[] = [
-        'Martin',
-        'Lucy',
-        'Martin',
-        'Angela',
-        'Cortnee',
-        'Nick'
+        'Марія',
+        'Андрій',
+        'Галина',
+        'Антон',
+        'Наталія',
+        'Микола'
     ];
 
     constructor(private route: ActivatedRoute,

@@ -5,10 +5,10 @@
         <div class="calendar-controls text-center">
           <p>
             {{ selectedMonth | date:'MMMM yyyy' }}
-            <button class="btn btn-secondary export-to-csv-btn" (click)="toCsv()">csv</button>
+            <button class="btn btn-secondary export-to-csv-btn" (click)="toCsv()">CSV</button>
           </p>
-          <button class="btn calendar-control-btn" (click)="getMonth(-1)">Prev month</button>
-          <button class="btn calendar-control-btn" (click)="getMonth(1)" style="margin-top: 5px">Next month</button>
+          <button class="btn calendar-control-btn" (click)="getMonth(-1)">Попередній</button>
+          <button class="btn calendar-control-btn" (click)="getMonth(1)" style="margin-top: 5px">Наступний</button>
         </div>
       </div>
       <div class="col">
@@ -20,7 +20,7 @@
               </div>
               <div class="col text-left">
                 <div *ngIf="getDayStats(day) as numberOfPatients">
-                  <p>Patients: {{numberOfPatients}}</p>
+                  <p>Пацієнтів: {{numberOfPatients}}</p>
                 </div>
               </div>
             </div>

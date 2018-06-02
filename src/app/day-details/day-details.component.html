@@ -4,16 +4,16 @@
             <form (ngSubmit)="addRecord()" [formGroup]="recordForm" novalidate>
                 <div class="form-row">
                     <div class="col-5">
-                        <input type="text" class="form-control" formControlName="firstName" placeholder="First Name">
+                        <input type="text" class="form-control" formControlName="firstName" placeholder="Ім'я">
                     </div>
                     <div class="col-5">
-                        <input type="text" class="form-control" formControlName="lastName" placeholder="Last Name">
+                        <input type="text" class="form-control" formControlName="lastName" placeholder="Прізвище">
                     </div>
                 </div>
                 <div class="form-row" style="margin-top: 10px">
                     <div class="col-5">
                         <select type="text" class="form-control" formControlName="doctor">
-                            <option [value]="" [selected]="true">Doctor</option>
+                            <option [value]="" [selected]="true">Лікар</option>
                             <option *ngFor="let doctor of doctors"
                                     [value]="doctor">
                                 {{doctor}}
@@ -21,11 +21,11 @@
                         </select>
                     </div>
                     <div class="col-5">
-                        <input atp-time-picker value="19:00" class="form-control" formControlName="time" placeholder="Time" locale='ua' start='9:00' end="18:00" theme='material-blue'/>
+                        <input atp-time-picker value="19:00" class="form-control" formControlName="time" placeholder="Година" locale='ua' start='9:00' end="18:00" theme='material-blue'/>
                     </div>
                     <div class="col-2">
                         <button type="submit" class="btn btn-block add-record-btn">
-                            Add record
+                            Створити запис
                         </button>
                     </div>
                 </div>
